@@ -1,0 +1,20 @@
+.header {
+    flex: 0 0 50px;
+    font-size: 4rem;
+}
+
+.content {
+    flex: 1 1 0;
+    display: flex;
+}
+.content > .column1 {
+    flex: 1;
+}
+.content > .column2 {
+    flex: 1;
+}
+
+.footer {
+    flex: 0 0 30px;
+    font-size: 0.8rem;
+}
